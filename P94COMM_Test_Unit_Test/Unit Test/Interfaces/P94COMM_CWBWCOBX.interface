@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Aug 29, 2018 12:10:41 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/P94COMM_CWBWCOBX.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#Unit%20Test/Structures/P94COMM_CWBWCOBX_PARMINFO.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.RUN_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P94COMM_CWBWCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/P94COMM_WBCI0075_01.stub" stubtype="Program" target="WBCI0075" token="10000">
+  <stub:description>Created: Aug 29, 2018 12:10:40 PM</stub:description>
+  <stub:stubdata id="0" name="WBCI0075"/>
+</stub:stub>
