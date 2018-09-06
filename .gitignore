@@ -1,4 +1,8 @@
 # ---- results files
+
 !Output/**/*.xml
+
 !Output/**/*.html
+
 !Output/**/*.archive
+
