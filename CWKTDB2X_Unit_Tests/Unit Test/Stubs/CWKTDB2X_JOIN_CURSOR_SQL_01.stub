@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_JOIN_CURSOR_SQL_01.stub" nextCalltoken="40015" stubtype="SQL CURSOR" target="Open" token="40000">
+  <stub:description>Created: Jan 16, 2019 4:07:40 PM</stub:description>
+  <stub:stubdata id="0" name="Open">
+    <stub:sqlResults>
+      <stub:result id="1" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000125C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output1.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="2" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40003">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="3" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000100C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output3.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40004">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="4" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40005">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="5" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000100D</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output5.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40006">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="6" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40007">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="7" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000100C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output7.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40008">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="8" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40009">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="9" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000100C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output9.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40010">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="10" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40011">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="11" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000125C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output11.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40012">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="12" name="Open">
+        <stub:sqlStatus>
+          <stub:statement type="Open">
+            <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="40013">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFE0A000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5D9E340FFFFFED40000000000000000FFFFFFFF00000000000000004040404040404040404040F2F4F5F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="13" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface#Unit%20Test/Interfaces/Fetch_JOIN_CURSOR_COST_FACTOR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR" id="arg0.COST_FACTOR">
+            <properties:properties>
+              <properties:property name="value" type="string">0000100C</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COST-FACTOR.listructure#COST_FACTOR.COST_FACTOR" id="output13.arg0.COST_FACTOR.COST_FACTOR" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****      EXEC SQL FETCH JOIN_CURSOR INTO
+      *****          :COST_FACTOR
+      *****      END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AB153B703ABCE88000237D986680000000037D9A95804B800040000036A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E4060237D9876637D9A3C00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="40014">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****      EXEC SQL OPEN JOIN_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00400000003243574B54444232581AB153B703ABCE88000237D98668000000000000000004B80003000003690000000000000000000000000000000000000000</stub:headerData>
+      </stub:plist>
+      <stub:sqlca callToken="40001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F14040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+  <stub:query>
+    <stub:text>           EXEC SQL DECLARE JOIN_CURSOR CURSOR FOR
+               SELECT COST_FACTOR
+               FROM KT_LOCATION, KT_INCENTIVES
+               WHERE ZIP_CODE = ZIP
+           END-EXEC.
+</stub:text>
+  </stub:query>
+</stub:stub>

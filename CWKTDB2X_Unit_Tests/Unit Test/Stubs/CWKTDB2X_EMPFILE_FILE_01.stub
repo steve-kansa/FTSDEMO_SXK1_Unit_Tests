@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_EMPFILE_FILE_01.stub" stubtype="QSAM" target="EMPFILE" token="60000">
+  <stub:description>Created: Jan 16, 2019 4:07:43 PM</stub:description>
+  <stub:stubdata id="0" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F4F3F1C8F2C7C1C9D340D3C1E6D9C5D5C3C54040F1F2F340D5D6D9E3C840C1E5C54040D7D3C1D5D6404040E3E7F5F7F0F1F040404040F3F802500F4040404040404040F8F4F0F6F2F54040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input0.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input0.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3C8F1D1D6C8D540E2D4C9E3C84040404040F5F4F5F640C5D3D440E2E3D9C5C5E3E6C1E8D5C5404040C9D3F7F7F9F0F240404040F3F002500F4040404040404040F8F1F1F0F1F54040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input1.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input1.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F002500F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input2.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input2.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F4F1C8F3D4C1D9C3C9C140E2E4D3D3C9E5C1D5F5F540E2D6E4E3C840E2E3D9C5C5E3D5C5E640E8D6D9D2D5E8F1F0F0F1F740404040F4F403000F4040404040404040F9F3F0F4F0F54040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input3.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input3.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3C8F3D1C1D4C5E240D4D6D9D9C9E2D6D540F1F160C140D4C1D7D3C540C1E5C540E2E8D9C1C3E4E2C5D5E8F1F2F1F2F340404040F3F702750F4040404040404040F9F1F0F9F1F34040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input4.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input4.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F202750F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input5.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input5.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5C8F2D2C1E3C9C540E6C9D3D3C9C1D4E240F1F2F340D4C1C9D540E2E340404040C3D6D3E4D4C2E4E2D6C8F4F3F0F8F240404040F3F202750F4040404040404040F9F6F1F0F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input6.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input6.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F9F9F9F9C4F3D4C1E740C540D4C9D3D3C9D6D54040F1F0F040D4C1C9D540E2E3D9C5C5E3D4C1C9D540404040D6C8F3F4F0F9F340404040F8F802500F4040404040404040F9F1F0F3F2F34040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input7.arg0.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input7.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+  </stub:stubdata>
+</stub:stub>
