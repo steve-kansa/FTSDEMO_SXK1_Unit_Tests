@@ -33,6 +33,11 @@ ${TOTALTEST_JOBCARD}
 //        DD DISP=SHR,DSN=<LOADLIB CONTAINING 'DSN' COMMAND>
 //*       DD DISP=SHR,DSN=<COBOL RUNTIME LOADLIB>
 //*
+//* The following lines will initialize storage to zeroes to avoid 
+//* uninitialized storage assertion miscompares.
+//CEEOPTS  DD  *
+STORAGE(00,00,00)
+/*
 //TRPARM DD *
 *
 *        Optionally set your custom exit program here:
